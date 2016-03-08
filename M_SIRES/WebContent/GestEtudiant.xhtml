@@ -1,0 +1,365 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+<head>
+<base />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="robots" content="index, follow" />
+
+<title>Mathématiques et Informatique des Systèmes Complexes et
+	Distribués (MATIS)</title>
+<link href="homedcab.feed?type=rss" rel="alternate"
+	type="application/rss+xml" title="RSS 2.0" />
+<link href="homeb550.feed?type=atom" rel="alternate"
+	type="application/atom+xml" title="Atom 1.0" />
+<link href="templates/ja_nickel/favicon.ico" rel="shortcuticon"
+	type="image/x-icon" />
+<link rel="stylesheet" href="templates/ja_nickel/css/ja.slideshow2.css"
+	type="text/css" />
+
+<script type="text/javascript" src="media/system/js/mootools.js"></script>
+<script type="text/javascript" src="media/system/js/caption.js"></script>
+<script type='text/javascript' src='plugins/content/ja_tabs/ja_tabs.js'
+	charset="utf-8"></script>
+<link type='text/css' href='plugins/content/ja_tabs/ja_tabs.css'
+	rel="stylesheet" />
+<link rel="stylesheet"
+	href="plugins/content/ja_tabs/themes/nickel/style.css" type="text/css"
+	media="screen" />
+
+<link rel="stylesheet" href="templates/system/css/system.css"
+	type="text/css" />
+<link rel="stylesheet" href="templates/system/css/general.css"
+	type="text/css" />
+<link rel="stylesheet" href="templates/ja_nickel/css/editor.html"
+	type="text/css" />
+
+<meta name="google-site-verification"
+	content="2UOE9UEADvdC1FjxE9HwPQ3GHOrdGVteQ85DzsuwEig" />
+
+<link rel="stylesheet" href="templates/ja_nickel/css/typo.css"
+	type="text/css" />
+
+<link href="templates/ja_nickel/mootabs/mootabs1.2.html"
+	rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript"
+	src="/templates/ja_nickel/js/ja.script.js"></script>
+<script language="javascript" type="text/javascript"
+	src="/templates/ja_nickel/js/cufon/cufon.js"></script>
+<script language="javascript" type="text/javascript"
+	src="/templates/ja_nickel/js/cufon/NeoSans_400.font.js"></script>
+<script type="text/javascript">
+	Cufon
+			.replace(
+					'.componentheading, .contentheading, div.moduletable h3, div.moduletable_menu h3, div.moduletable_text h3,div.moduletable_highlight h3',
+					{
+						fontFamily : 'NeoSans'
+					});
+</script>
+
+<!-- Menu head -->
+<link href="templates/ja_nickel/ja_menus/ja_cssmenu/ja.cssmenu.css"
+	rel="stylesheet" type="text/css" />
+<script src="templates/ja_nickel/ja_menus/ja_cssmenu/ja.cssmenu.js"
+	language="javascript" type="text/javascript"></script>
+<link rel="stylesheet" href="templates/ja_nickel/css/addons.css"
+	type="text/css" />
+<link rel="stylesheet" href="templates/ja_nickel/css/css3.css"
+	type="text/css" />
+<link rel="stylesheet" href="templates/ja_nickel/css/template.css"
+	type="text/css" />
+<link rel="stylesheet" href="templates/ja_nickel/css/ja.bulletin.css"
+	type="text/css" />
+<link href="templates/ja_nickel/css/colors/default.css" rel="stylesheet"
+	type="text/css" />
+<link href="templates/ja_nickel/css/table-style.css" rel="stylesheet"
+	type="text/css" />
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-19927378-1' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<script type="text/javascript">
+	document
+			.write(unescape("%3Cscript src='"
+					+ ((document.location.protocol == "https_.html") ? "https://www.panfolio.com"
+							: "http://www.panfolio.com")
+					+ "/widget.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+	SnapABug.setLocale("fr");
+	SnapABug.init("8ae58824-4cef-4485-a70a-e1f36cf92501");
+</script>
+
+<!-- bootstrap -->
+<link
+	href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css"
+	rel="stylesheet"></link>
+<link
+	href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+	rel="stylesheet"></link>
+</head>
+
+<body id="bd" class="  fs3">
+	<a name="Top" id="Top"></a>
+	<!-- HEADER -->
+	<div id="ja-header" class="wrap">
+		<div class="main clearfix">
+
+			<h1 class="logo">
+				<a href="" title=""><span></span></a>
+			</h1>
+			<div align="center">
+				<br></br>
+				<p style="color: blue; font-size: large;">Mathématiques et
+					Informatique des Systèmes Complexes et Distribués (MATIS)</p>
+					<h:form>
+						<h:commandButton class="btn btn-danger btn-lg" style="float: right;" action="#{connAdmin.deconexion()}" value="Déconnexion" />
+					</h:form>
+			</div>
+		</div>
+	</div>
+	<!-- //HEADER -->
+	<div id="ja-mainnav" class="wrap">
+		<div class="main clearfix">
+
+			<ul id="ja-cssmenu" class="clearfix">
+				<li><a href="GestAnnonces.xhtml"><span>Annonces</span></a></li>
+
+				<li><a href="GestModules.xhtml"><span>Modules</span></a></li>
+
+				<li><a href="GestEnseignants.xhtml"><span>Enseignants</span></a></li>
+
+				<li class="active"><a href="GestEtudiant.xhtml"><span>Etudiants</span></a></li>
+				
+				<li><a href="GestPreinscrit.xhtml"> <span>Preinscriptions</span></a></li>
+
+				<li><a href="GestRapportStage.xhtml"> <span>Stages</span></a></li>
+							
+				<li><a href="Promotions.xhtml"><span>Promotions</span></a></li>
+
+				<li><a href="ConsultMessage.xhtml"><span>Messages</span></a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<!-- //MAIN NAVIGATION -->
+
+	<div class="main">
+		<div id="ja-container" class="wrap">
+			<div class="panel panel-default">
+
+				<!-- Header -->
+				<div class="panel-heading">
+					<h2 class="text-primary text-center"
+						style="text-transform: uppercase;">Liste des étudiants</h2>
+
+				</div>
+				<!-- //Header -->
+
+				<!-- Body -->
+				<div class="panel-body">
+					<div class="table-responsive">
+
+							<h:form>
+								<ui:repeat var="item" value="#{promotionDao.liste_promo()}">
+								<div style="height: 200px; overflow: auto;">
+									<br />
+									<br />
+									<table class="table-style style-colorheader">
+
+										<thead>
+											<tr>
+												<th>Nom</th>
+												<th>Prénom</th>
+												<th>Email</th>
+												<th>Promotion</th>
+												<th>Action</th>
+											</tr>
+										</thead>
+
+										<ui:repeat var="item2"
+											value="#{etudDao.listParPromotion(item.id)}">
+											<tr class="odd">
+												<td>#{item2.nom}</td>
+												<td>#{item2.prenom}</td>
+												<td>#{item2.email}</td>
+												<td>#{item.annee}</td>
+												<td>
+													<h:commandLink value="Supprimer"
+														styleClass="color:blue;"
+														action="#{etudDao.Delete(item2.id)}" /> <br /> <br />
+													<h:commandLink
+														value="   Modifier"
+														action="#{etudDao.get_Etudiant(item2.id)}" /></td>
+
+											</tr>
+										</ui:repeat>
+
+
+									</table>
+									</div>>
+								</ui:repeat>
+							</h:form>
+						
+
+						<div>
+							<h3>Ajouter un Etudiant</h3>
+							<h:form>
+								<table class="table table-hover">
+									<tr>
+										<td>
+											<div class='col-sm-4'>
+												<h:outputText class="lead" value="Nom" />
+											</div>
+										</td>
+										<td>
+											<div class='col-sm-10'>
+												<div class="form-group">
+													<div class="input-group">
+														<h:inputText class="form-control" value="#{etudiant.nom}"
+															id="nom" required="true"
+															requiredMessage="Nom obligatoire" />
+														<div class="asterisk_input input-group-addon"></div>
+													</div>
+													<h:message for="nom" errorStyle="color:red" />
+												</div>
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											<div class='col-sm-4'>
+												<h:outputText class="lead" value="Prénom" />
+											</div>
+										</td>
+										<td>
+											<div class='col-sm-10'>
+												<div class="form-group">
+													<div class="input-group">
+														<h:inputText class="form-control"
+															value="#{etudiant.prenom}" id="prenom" required="true"
+															requiredMessage="Prénom obligatoire" />
+														<div class="asterisk_input input-group-addon"></div>
+													</div>
+													<h:message for="prenom" errorStyle="color:red" />
+												</div>
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											<div class='col-sm-4'>
+												<h:outputText class="lead" value="Email" />
+											</div>
+										</td>
+										<td>
+											<div class='col-sm-10'>
+												<div class="form-group">
+													<div class="input-group">
+														<h:inputText class="form-control"
+															value="#{etudiant.email}" id="email" required="true"
+															requiredMessage="Email obligatoire" />
+														<div class="asterisk_input input-group-addon"></div>
+													</div>
+													<h:message for="email" errorStyle="color:red" />
+												</div>
+											</div>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											<div class='col-sm-4'>
+												<h:outputText class="lead" value="Promotion" />
+											</div>
+										</td>
+										<td>
+											<div class='col-sm-10'>
+												<div class="form-group">
+													<div class="input-group">
+														<h:selectOneMenu class="form-control"
+															value="#{etudiant.promo}" id="promotion" required="true"
+															requiredMessage="Promotion obligatoire">
+															<f:selectItem itemValue="#{null}"
+																itemLabel="Choisir un promotion" />
+															<f:selectItems value="#{promotionDao.get_Promo()}" />
+														</h:selectOneMenu>
+														<div class="asterisk_input input-group-addon"></div>
+													</div>
+													<h:message for="promotion" errorStyle="color:red" />
+												</div>
+											</div>
+										</td>
+									</tr>
+								</table>
+
+
+								<div class="form-group center">
+									<div class="pager col-sm-6">
+										<h:commandButton class="btn btn-success btn-lg"
+											action="#{etudDao.Insert(etudiant)}" value="Ajouter" />
+									</div>
+									<div class="pager col-sm-6" style="text-align: center;">
+										<h:commandButton class="btn btn-danger btn-lg" type="reset"
+											value="Annuler" />
+									</div>
+								</div>
+							</h:form>
+						</div>
+					</div>
+				</div>
+				<!-- //Body -->
+
+				<!-- Footer -->
+				<div class="panel-footer">
+					<div class="text-center center-block">
+						<p class="txt-railway">
+							Copyright &copy; <a href="https://www.univ-lehavre.fr/">Univeristé
+								du Havre</a> <span class="glyphicon glyphicon-thumbs-up"></span>
+						</p>
+						<br /> <a
+							href="https://plus.google.com/101408348277607588771/about?hl=fr"><i
+							id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+						<a href="https://www.facebook.com/univ.lehavre"><i
+							id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a> <a
+							href="https://www.youtube.com/channel/UCH-CkxTL0ZESIPl6I4CU20w"><i
+							id="social-yt" class="fa fa-youtube-square fa-3x social"></i></a> <a
+							href="mailto:christelle.lambert@univ-lehavre.fr"><i
+							id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+					</div>
+				</div>
+				<!-- //Footer -->
+
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		addSpanToTitle();
+		jaAddFirstItemToTopmenu();
+	</script>
+</body>
+
+</html>
